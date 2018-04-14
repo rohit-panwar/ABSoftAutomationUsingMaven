@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <test thread-count="5" name="SMOKE(failed)">
+    <classes>
+      <class name="com.absoft.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="extentReportcleanUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- com.absoft.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- SMOKE(failed) -->
+</suite> <!-- Failed suite [Automation] -->

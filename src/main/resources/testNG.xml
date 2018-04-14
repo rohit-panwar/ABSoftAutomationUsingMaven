@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation">
+<test name="SMOKE">
+<classes>
+<class name="com.absoft.qa.testcases.HomePageTest"/>
+<class name="com.absoft.qa.testcases.LoginPageTest"/>
+<!--<class name="com.absoft.qa.testcases.MyAccountPageTest"/>
+<class name="com.absoft.qa.testcases.ProductDescriptionPageTest"/>
+<class name="com.absoft.qa.testcases.ShopPageTest"/>-->
+</classes>
+</test>
+</suite>
