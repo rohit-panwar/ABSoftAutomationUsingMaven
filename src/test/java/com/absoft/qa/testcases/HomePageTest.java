@@ -5,16 +5,11 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.absoft.qa.base.TestBase;
 import com.absoft.qa.pages.HomePage;
-import com.absoft.qa.util.ExtentReportUtil;
+
 
 public class HomePageTest extends TestBase{
 

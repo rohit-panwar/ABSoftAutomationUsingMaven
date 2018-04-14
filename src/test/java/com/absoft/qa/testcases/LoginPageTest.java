@@ -52,7 +52,7 @@ public class LoginPageTest extends TestBase{
 		myAccountPage = loginPage.loginAccount(prop.getProperty("USERNAME"), prop.getProperty("PASSWORD"));
 	}
 	
-	/*@DataProvider
+	@DataProvider
 	public Object[][] getABSoftTestData(){
 		Object data[][]= TestUtil.getTestData(sheetName);
 		return data;
@@ -61,7 +61,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority= 3, dataProvider="getABSoftTestData")
 	public void validateMultipleLogin(String un, String pwd) {
 		myAccountPage = loginPage.loginAccount(un, pwd);
-	}*/
+	}
 	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
